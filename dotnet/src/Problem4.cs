@@ -12,12 +12,13 @@ namespace ProjectEuler
         public static int LargestThreeDigitPalindrome()
         {
             int largestNumber = 0;
+            int number = 0;
             for (int i = 100; i < 1000; i++)
             {
                 for (int j = 100; j < 1000; j++)
                 {
-                    int number = i * j;
-                    if (IsPalindromicNumber(number.ToString()) && number > largestNumber)
+                    number = i * j;
+                    if (number > largestNumber && IsPalindromicNumber(number.ToString()))
                     {
                         largestNumber = number;
                     }
