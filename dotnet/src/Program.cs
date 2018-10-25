@@ -6,7 +6,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            Console.Write(Problem1.SumOfDivision());
+            Console.WriteLine(Problem1.SumOfDivision());
         }
     }
 }
