@@ -8,6 +8,7 @@ namespace ProjectEuler
         {
             Console.WriteLine(Problem1.SumOfDivision());
             Problem7.Problem7_Answer();
+            Console.Write(Problem8.GetResult());
         }
     }
 }
