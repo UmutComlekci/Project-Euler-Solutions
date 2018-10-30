@@ -6,8 +6,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Problem20.FactorialDigitSum());
-            Console.Read();
+           Console.WriteLine(Problem2.FibonacciEvenNumbersSum(0,1,0));
         }
     }
 }
