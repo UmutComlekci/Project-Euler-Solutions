@@ -17,5 +17,11 @@ namespace ProjectEuler.Tests
         {
             Assert.Equal(Problem8.GetResult(), 23514624000);
         }
+        [Fact]
+        public void Promlem9_ShouldReturn_200375425()
+        {
+            Assert.Equal(Problem9.Pythagorean(),"200375425");
+        }
+
     }
 }
