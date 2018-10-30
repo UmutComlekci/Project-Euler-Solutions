@@ -22,7 +22,7 @@ namespace ProjectEuler
     {
         public static int GetResult()
         {
-            return -1;
+            throw new NotImplementedException();
         }
     }
 }

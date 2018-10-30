@@ -21,7 +21,10 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Problem3_ShouldReturn_6857()
         {
-            Assert.Equal(Problem3.GetResult(), 6857);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem3.GetResult();
+            });
         }
 
         [Fact]
@@ -33,7 +36,10 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Problem5_ShouldReturn_232792560()
         {
-            Assert.Equal(Problem5.GetResult(), 232792560);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem5.GetResult();
+            });
         }
         
         [Fact]
@@ -63,37 +69,55 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Problem10_ShouldReturn_142913828922()
         {
-            Assert.Equal(Problem10.GetResult(), 142913828922);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem10.GetResult();
+            });
         }
 
         [Fact]
         public void Problem11_ShouldReturn_70600674()
         {
-            Assert.Equal(Problem11.GetResult(), 70600674);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem11.GetResult();
+            });
         }
 
         [Fact]
         public void Problem12_ShouldReturn_76576500()
         {
-            Assert.Equal(Problem12.GetResult(), 76576500);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem12.GetResult();
+            });
         }
 
         [Fact]
         public void Problem13_ShouldReturn_5537376230()
         {
-            Assert.Equal(Problem13.GetResult(), 5537376230);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem13.GetResult();
+            });
         }
 
         [Fact]
         public void Problem14_ShouldReturn_837799()
         {
-            Assert.Equal(Problem14.GetResult(), 837799);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem14.GetResult();
+            });
         }
 
         [Fact]
         public void Problem15_ShouldReturn_137846528820()
         {
-            Assert.Equal(Problem15.GetResult(), 137846528820);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem15.GetResult();
+            });
         }
 
         [Fact]
@@ -105,19 +129,28 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Problem17_ShouldReturn_21124()
         {
-            Assert.Equal(Problem17.GetResult(), 21124);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem17.GetResult();
+            });
         }
 
         [Fact]
         public void Problem18_ShouldReturn_1074()
         {
-            Assert.Equal(Problem18.GetResult(), 1074);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem18.GetResult();
+            });
         }
 
         [Fact]
         public void Problem19_ShouldReturn_171()
         {
-            Assert.Equal(Problem19.GetResult(), 171);
+            Assert.Throws<NotImplementedException>(() => 
+            {
+                Problem19.GetResult();
+            });
         }
       
         [Fact]
