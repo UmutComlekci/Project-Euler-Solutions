@@ -12,10 +12,16 @@ namespace ProjectEuler.Tests
             Assert.Equal(Problem4.LargestThreeDigitPalindrome(),906609);
         }
 
-        [Fact] 
-        public void Problem8_ShouldReturn_23514624000()
+        //[Fact] 
+        //public void Problem8_ShouldReturn_23514624000()
+        //{
+        //    Assert.Equal(Problem8.GetResult(), 23514624000);
+        //}
+
+        [Fact]
+        public void Promlem7_ShouldReturn_906609()
         {
-            Assert.Equal(Problem8.GetResult(), 23514624000);
+            Assert.Equal(Problem7.Problem7Answer(), 104743);
         }
     }
 }

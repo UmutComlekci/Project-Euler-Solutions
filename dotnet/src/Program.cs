@@ -7,8 +7,8 @@ namespace ProjectEuler
         static void Main(string[] args)
         {
             Console.WriteLine(Problem1.SumOfDivision());
-            Problem7.Problem7_Answer();
-            Console.Write(Problem8.GetResult());
+            Console.WriteLine("10001. Prime Number: "+Problem7.Problem7Answer());
+            //Console.Write(Problem8.GetResult());
         }
     }
 }
