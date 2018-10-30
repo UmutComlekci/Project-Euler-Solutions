@@ -16,7 +16,7 @@ namespace ProjectEuler
         {
             int a=0,b=0,c=1000;
             for(a = 1; a<c; a++){
-                for(b = 1; b<c; b++){
+                for(b = a+1; b<c; b++){
                    c = 1000 - a - b;
                    double sumofsquares = Math.Pow(a,2) + Math.Pow(b,2);
                    if(sumofsquares == Math.Pow(c,2)){
