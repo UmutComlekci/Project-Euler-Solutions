@@ -29,5 +29,11 @@ namespace ProjectEuler.Tests
         {
             Assert.Equal(Problem20.FactorialDigitSum(), 648);
         }
+        [Fact]
+        public void Promlem9_ShouldReturn_31875000()
+        {
+            Assert.Equal(Problem9.Pythagorean(),31875000);
+        }
+
     }
 }
