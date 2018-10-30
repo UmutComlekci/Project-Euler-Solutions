@@ -6,9 +6,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Problem1.SumOfDivision());
-            Console.WriteLine("10001. Prime Number: "+Problem7.Problem7Answer());
-            //Console.Write(Problem8.GetResult());
+           Console.WriteLine(Problem2.FibonacciEvenNumbersSum(0,1,0));
         }
     }
 }

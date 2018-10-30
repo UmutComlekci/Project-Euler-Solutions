@@ -9,7 +9,13 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Promlem4_ShouldReturn_906609()
         {
-            Assert.Equal(Problem4.LargestThreeDigitPalindrome(),906609);
+            Assert.Equal(Problem4.LargestThreeDigitPalindrome(),906609);            
+        }
+        
+        [Fact]
+        public void Problem2_ReturnResult_4613732()
+        {
+            Assert.Equal(Problem2.FibonacciEvenNumbersSum(0,1,0),4613732);
         }
 
         //[Fact] 
@@ -29,5 +35,18 @@ namespace ProjectEuler.Tests
         {
             Assert.Equal(Problem16.Problem16Answer(), 1366);
         }
+      
+        [Fact]
+        public void Problem20_ShouldReturn_648()
+        {
+            Assert.Equal(Problem20.FactorialDigitSum(), 648);
+        }
+      
+        [Fact]
+        public void Promlem9_ShouldReturn_31875000()
+        {
+            Assert.Equal(Problem9.Pythagorean(),31875000);
+        }
+
     }
 }
