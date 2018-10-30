@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using ProjectEuler;
+
 namespace ProjectEuler.Tests
 {
     public class ProblemTests
@@ -10,10 +11,17 @@ namespace ProjectEuler.Tests
         {
             Assert.Equal(Problem4.LargestThreeDigitPalindrome(),906609);            
         }
+        
         [Fact]
         public void Problem2_ReturnResult_4613732()
         {
             Assert.Equal(Problem2.FibonacciEvenNumbersSum(0,1,0),4613732);
+        }
+
+        [Fact] 
+        public void Problem8_ShouldReturn_23514624000()
+        {
+            Assert.Equal(Problem8.GetResult(), 23514624000);
         }
     }
 }
