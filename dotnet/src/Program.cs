@@ -6,7 +6,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            Console.Write(Problem8.GetResult());
+           Console.WriteLine(Problem2.FibonacciEvenNumbersSum(0,1,0));
         }
     }
 }
