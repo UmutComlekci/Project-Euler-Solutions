@@ -6,5 +6,5 @@ dotnet: 2.1
 install:
   - dotnet restore dotnet
 script:
-  - dotnet build
+  - dotnet build dotnet
   - dotnet test dotnet/tests/ProjectEuler.Tests
