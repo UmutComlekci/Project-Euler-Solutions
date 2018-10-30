@@ -19,7 +19,7 @@ namespace ProjectEuler.Tests
         //}
 
         [Fact]
-        public void Promlem7_ShouldReturn_906609()
+        public void Promlem7_ShouldReturn_104743()
         {
             Assert.Equal(Problem7.Problem7Answer(), 104743);
         }
