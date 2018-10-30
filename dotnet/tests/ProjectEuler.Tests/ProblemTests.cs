@@ -23,5 +23,11 @@ namespace ProjectEuler.Tests
         {
             Assert.Equal(Problem7.Problem7Answer(), 104743);
         }
+
+        [Fact]
+        public void Promlem16_ShouldReturn_1366()
+        {
+            Assert.Equal(Problem16.Problem16Answer(), 1366);
+        }
     }
 }
