@@ -8,7 +8,11 @@ namespace ProjectEuler.Tests
         [Fact]
         public void Promlem4_ShouldReturn_906609()
         {
-            Assert.Equal(Problem4.LargestThreeDigitPalindrome(),906609);
+            Assert.Equal(Problem4.LargestThreeDigitPalindrome(),906609);            
+        }
+        public void Problem2_ReturnResult_4613732()
+        {
+            Assert.Equal(Problem2.FibonacciEvenNumbersSum(0,1,0),4613732);
         }
     }
 }
